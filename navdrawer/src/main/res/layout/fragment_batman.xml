@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BatmanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        style = "@style/linearLayoutStyle">
+        <TextView
+            style = "@style/textViewStyle.Title"
+            android:text="@string/batman"/>
+        <ImageView
+            style = "@style/imageViewStyle"
+            android:src="@drawable/batman"/>
+        <TextView
+            style = "@style/textViewStyle.Content"
+            android:text="@string/poderesbatman"/>
+
+        
+    </LinearLayout>
+
+
+
+</FrameLayout>
